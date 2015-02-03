@@ -10,6 +10,7 @@
 *** справка о том, что я работаю в теч. 3 лет
 *** TODO медосмотр (4*$215=860)
 ** TODO finance plan
+*** DONE скоко будет в июне?
 *** find preferred place
 **** cupertino
 **** mountain view
@@ -64,3 +65,13 @@
 * living
 https://www.google.com.ua/search?safe=off&biw=1324&bih=934&sclient=psy-ab&q=green+card+what+is+it
 * finance plan
+| Month | Amount | Расходы | Сумма |
+|-------+--------+---------+-------|
+| Mar   |      0 | Билеты  |  4000 |
+| Apr   |      0 |         |       |
+| May   |      0 |         |       |
+| Jun   |   5100 |         |       |
+| мото  |   3000 |         |       |
+|-------+--------+---------+-------|
+|       |   8100 |         |  4000 |
+  #+TBLFM: @7$2=vsum(@I..II)::@7$4=vsum(@I..II)
