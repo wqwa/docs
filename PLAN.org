@@ -20,6 +20,8 @@
 | Mountain View |        |          |           |  1900 |      |
 | Santa Clara   |        |          |           |  1800 |      |
 | Palo Alto     |        |          |           |  2130 |      |
+| Pleasanton    |        |          |           |  1900 |      |
+| Fremont       |        |          |           |  1900 |      |
 **** cupertino
 **** mountain view
 **** san diego
