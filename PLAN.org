@@ -1,17 +1,16 @@
 #+TODO: TODO INPROGRESS DONE
 * TO-DO
 ** visa documents list
-*** INPROGRESS Довідка про відсутність судимості. ИП-1
-*** INPROGRESS оценка дома
-*** акт власности
+*** DONE Довідка про відсутність судимості. ИП-1
+*** DONE оценка дома
+*** TODO акт власности
 *** DONE справка с работы (о зарплате)
 *** справка с мата
 *** справка с СМК    
 *** DONE справка о том, что я работаю в теч. 3 лет
-*** INPROGRESS медосмотр (4*$215=860)
+*** DONE медосмотр (4*$215=860)
 ** INPROGRESS finance plan
 *** DONE скоко будет в июне?
-*** find preferred place
 *** find preferred place
 1br
 | Place         |    Sal | Clean    | Sales Tax | House | Rest |
@@ -36,17 +35,17 @@
 ** INPROGRESS ask creditors
 *** YP
 *** OL
-*** SK?
+*** SK
 ** TODO find renters for house
-* visa ($330)
+* DONE visa ($330)
 * 23,850
 ** documents и копия каждого документа
 *** DONE Свідоцтво про шлюб або зміну прізвища.
 *** DONE Свідоцтво про розірвання шлюбу.
-*** INPROGRESS Довідка про відсутність судимості. ИП-1
+*** DONE Довідка про відсутність судимості. ИП-1
 *** DONE Внутрішній український паспорт.
-*** INPROGRESS Докази проживання за вказаною адресою в Україні.
-*** INPROGRESS Докази того, що Ви не будете претендувати на державне фінансове забезпечення в
+*** DONE Докази проживання за вказаною адресою в Україні.
+*** DONE Докази того, що Ви не будете претендувати на державне фінансове забезпечення в
 США. Це можуть бути поєднання доказів Ваших особистих заощаджень, форма І
    134 (Affidavit of Support) від Ваших родичів або знайомих, що проживають у США,
 пропозиція працевлаштування від роботодавця у США.
@@ -61,7 +60,7 @@
 *** DONE свидетельства о рождении
 *** DONE свидетельство о браке
 *** DONE военный билет
-*** TODO медосмотр (4*$215=860)
+*** DONE медосмотр (4*$215=860)
 **** DONE Загран/проездной документ
 **** DONE 3 фото 50х50
 **** DONE Военник
@@ -70,29 +69,59 @@
 * job
 ** sites
 *** MONSTER.COM
-**** TODO resume
+**** DONE resume
 *** DICE.COM
-**** TODO resume
+**** DONE resume
 *** INDEED.COM
-**** TODO resume
+**** DONE resume
+*** GLASSDOOR.COM
 ** HR agencies
 *** TODO find some
 *** TODO contact
 * living
-https://www.google.com.ua/search?safe=off&biw=1324&bih=934&sclient=psy-ab&q=green+card+what+is+it
+  https://www.google.com.ua/search?safe=off&biw=1324&bih=934&sclient=psy-ab&q=green+card+what+is+it
 * finance plan
-| Month | Amount | Вер |   | Расходы | Сумма |       |
-|-------+--------+-----+---+---------+-------+-------|
-| Mar   |      0 |     |   | Билеты  |  4000 |       |
-| Apr   |      0 |     |   | жилье   |  5000 |       |
-| May   |      0 |     |   | харч    |  2000 |       |
-| Jun   |   5100 |     |   | мелочи  |  2000 |       |
-| мото  |   3000 |     |   | машын   | 10000 |       |
-| юп    |   2500 |   1 |   |         |       |       |
-| ол    |   5000 |     |   |         |       |       |
-| сла   |   5000 |     |   |         |       |       |
-| крк   |   3000 |     |   |         |       |       |
-| гр    |   3000 |     |   |         |       |       |
-|-------+--------+-----+---+---------+-------+-------|
-|       |  20600 |     |   |         | 23000 | -2400 |
-  #+TBLFM: @12$2=vsum(@I..II)::@12$6=vsum(@I..II)::@12$7=$2-$6
+| Month | Amount | Вер |        | Расходы | Сумма |      |
+|-------+--------+-----+--------+---------+-------+------|
+| Mar   |      0 |     |      0 | Билеты  |  4000 |      |
+| Apr   |      0 |     |      0 | жилье   |  5000 |      |
+| May   |      0 |     |      0 | харч    |  2000 |      |
+| Jun   |   5100 |   1 |   5100 | мелочи  |  2000 |      |
+| мото  |   3000 | 0.2 |   600. | машын   | 10000 |      |
+| юп    |   2500 |   1 |   2500 |         |       |      |
+| ол    |   5000 | 0.9 |  4500. |         |       |      |
+| крк   |   5000 |   1 |   5000 |         |       |      |
+| сла   |   2000 | 0.5 |  1000. |         |       |      |
+| гр    |   3000 | 0.5 |  1500. |         |       |      |
+|-------+--------+-----+--------+---------+-------+------|
+|       |  25600 |     | 20200. |         | 23000 | 2600 |
+  #+TBLFM: $4=$3*$2::@12$2=vsum(@I..II)::@12$4=vsum(@I..@II)::@12$6=vsum(@I..II)::@12$7=$2-$6
+
+* applications
+| Name           |       Date | Place      | Positions                           | Result                 |
+|----------------+------------+------------+-------------------------------------+------------------------|
+| Apple          |            |            |                                     |                        |
+| Apple          |            |            |                                     |                        |
+| Apple          |            |            |                                     |                        |
+| Apple          |            |            |                                     |                        |
+| Google         |            |            |                                     |                        |
+| - San Mateo    | 2015-03-09 | San Mateo  | Software Engineer (Java/C#/C++)     |                        |
+| SAP            | 2015-03-09 | Palo Alto  | C++ Software Engineer               |                        |
+| Tecopinc       | 2015-03-09 | Fremont    | Software Engineer - C++, Linux, TCP |                        |
+| Tableau        | 2015-03-09 | Palo Alto  | Software Engineer, Desktop UI       |                        |
+| Accuray        | 2015-03-09 | Sunnyvale  | C++ Software Engineer               |                        |
+| H&H Partners   | 2015-03-09 | San Jose   | C++ Software Engineer               |                        |
+| MarkLogic      | 2015-03-09 | San Carlos | Senior Software Engineer            |                        |
+| Cisco          | 2015-03-09 | San Jose   | C++ Software Development Engineer   | entry level. Cancelled |
+| RetailNext     | 2015-03-09 | San Jose   | Software Engineer                   |                        |
+| SSD - San Jose | 2015-03-09 | San Jose   | Staff Software Engineer (SSD)       |                        |
+| ebay           | 2015-03-09 | San Jose   | Sr. Linux C++ Engineer              |                        |
+*** cover letter
+Dear Sirs,
+
+I'm a Software Engineer with 10+ years of experience.
+Currently I'm located in Ukraine. I'm going to move to U.S. as a Diversity Visa lottery winner nearest months.
+It would be preferred to arrange some of interviews (or all of them) remotely: by phone, skype, web-meeting whatever.
+
+Best regards,
+Volodymyr Chabanenko 
