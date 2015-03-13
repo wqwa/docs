@@ -98,29 +98,30 @@
   #+TBLFM: $4=$3*$2::@12$2=vsum(@I..II)::@12$4=vsum(@I..@II)::@12$6=vsum(@I..II)::@12$7=$2-$6
 
 * applications
-| Name           |       Date | Place      | Positions                           | Result                 |
-|----------------+------------+------------+-------------------------------------+------------------------|
-| Apple          |            |            |                                     |                        |
-| Apple          |            |            |                                     |                        |
-| Apple          |            |            |                                     |                        |
-| Apple          |            |            |                                     |                        |
-| Google         |            |            |                                     |                        |
-| - San Mateo    | 2015-03-09 | San Mateo  | Software Engineer (Java/C#/C++)     |                        |
-| SAP            | 2015-03-09 | Palo Alto  | C++ Software Engineer               |                        |
-| Tecopinc       | 2015-03-09 | Fremont    | Software Engineer - C++, Linux, TCP |                        |
-| Tableau        | 2015-03-09 | Palo Alto  | Software Engineer, Desktop UI       |                        |
-| Accuray        | 2015-03-09 | Sunnyvale  | C++ Software Engineer               |                        |
-| H&H Partners   | 2015-03-09 | San Jose   | C++ Software Engineer               |                        |
-| MarkLogic      | 2015-03-09 | San Carlos | Senior Software Engineer            |                        |
-| Cisco          | 2015-03-09 | San Jose   | C++ Software Development Engineer   | entry level. Cancelled |
-| RetailNext     | 2015-03-09 | San Jose   | Software Engineer                   |                        |
-| SSD - San Jose | 2015-03-09 | San Jose   | Staff Software Engineer (SSD)       |                        |
-| ebay           | 2015-03-09 | San Jose   | Sr. Linux C++ Engineer              |                        |
+| Name                      |       Date | Place         | Positions                                    | Result                 |
+|---------------------------+------------+---------------+----------------------------------------------+------------------------|
+| Apple                     |            |               |                                              |                        |
+| Apple                     |            |               |                                              |                        |
+| Apple                     |            |               |                                              |                        |
+| Apple                     |            |               |                                              |                        |
+| Google                    |            |               |                                              |                        |
+| - San Mateo               | 2015-03-09 | San Mateo     | Software Engineer (Java/C#/C++)              |                        |
+| SAP                       | 2015-03-09 | Palo Alto     | C++ Software Engineer                        |                        |
+| Tecopinc                  | 2015-03-09 | Fremont       | Software Engineer - C++, Linux, TCP          |                        |
+| Tableau                   | 2015-03-09 | Palo Alto     | Software Engineer, Desktop UI                |                        |
+| Accuray                   | 2015-03-09 | Sunnyvale     | C++ Software Engineer                        |                        |
+| H&H Partners              | 2015-03-09 | San Jose      | C++ Software Engineer                        |                        |
+| MarkLogic                 | 2015-03-09 | San Carlos    | Senior Software Engineer                     |                        |
+| RetailNext                | 2015-03-09 | San Jose      | Software Engineer                            | No                     |
+| SSD - San Jose            | 2015-03-09 | San Jose      | Staff Software Engineer (SSD)                |                        |
+| ebay                      | 2015-03-09 | San Jose      | Sr. Linux C++ Engineer                       |                        |
+| Vision Technical Sourcing | 2015-03-13 | Overland Park | C++ Software Engineer                        |                        |
+| Model N                   | 2015-03-13 | Redwood       | Senior Software Engineer - Backend Developer |                        |
 *** cover letter
 Dear Sirs,
 
 I'm a Software Engineer with 10+ years of experience.
-Currently I'm located in Ukraine. I'm going to move to U.S. as a Diversity Visa lottery winner nearest months.
+Currently I'm located in Ukraine. I'm going to move to U.S. as a greencard holder nearest months.
 It would be preferred to arrange some of interviews (or all of them) remotely: by phone, skype, web-meeting whatever.
 
 Best regards,
