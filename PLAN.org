@@ -64,44 +64,55 @@
   #+TBLFM: $4=$3*$2::@12$2=vsum(@I..II)::@12$4=vsum(@I..@II)::@12$6=vsum(@I..II)::@12$7=$2-$6
 
 * applications
-| Name                           |       Date | Place         | Positions                                    | Result |
-|--------------------------------+------------+---------------+----------------------------------------------+--------|
-| Apple                          |            |               |                                              |        |
-| Apple                          |            |               |                                              |        |
-| Apple                          |            |               |                                              |        |
-| Apple                          |            |               |                                              |        |
-| Google                         |            |               |                                              |        |
-| - San Mateo                    | 2015-03-09 | San Mateo     | Software Engineer (Java/C#/C++)              |        |
-| SAP                            | 2015-03-09 | Palo Alto     | C++ Software Engineer                        |        |
-| Tecopinc                       | 2015-03-09 | Fremont       | Software Engineer - C++, Linux, TCP          |        |
-| Tableau                        | 2015-03-09 | Palo Alto     | Software Engineer, Desktop UI                |        |
-| Accuray                        | 2015-03-09 | Sunnyvale     | C++ Software Engineer                        |        |
-| H&H Partners                   | 2015-03-09 | San Jose      | C++ Software Engineer                        |        |
-| MarkLogic                      | 2015-03-09 | San Carlos    | Senior Software Engineer                     |        |
-| RetailNext                     | 2015-03-09 | San Jose      | Software Engineer                            | No     |
-| SSD - San Jose                 | 2015-03-09 | San Jose      | Staff Software Engineer (SSD)                |        |
-| ebay                           | 2015-03-09 | San Jose      | Sr. Linux C++ Engineer                       |        |
-| Vision Technical Sourcing      | 2015-03-13 | Overland Park | C++ Software Engineer                        |        |
-| Model N                        | 2015-03-13 | Redwood       | Senior Software Engineer - Backend Developer |        |
-| TekPartners                    | 2015-03-17 | Santa Clara   | C/C++ Software Engineer                      |        |
-| CAE Recruiters                 | 2015-03-17 | San Jose      | Senior Software Engineer, Geometric Modeling |        |
-| PlaceIQ                        | 2015-03-17 | Palo Alto     | Sr. Software Engineer, Big Data              |        |
-| Lockheed Martin                | 2015-03-17 | Sunnyvale     | Software Engineer Asc                        |        |
-| Microsoft                      | 2015-03-17 | Sunnyvale     | Software Engineer                            |        |
-| Molecular Devices, LLC.        | 2015-03-19 | Sunnyvale     | Software Engineer-MOL000970                  |        |
-| Amazon                         | 2015-03-19 | Cupertino     | Software Development Engineer, Amazon Echo   |        |
-| CyberCoders                    | 2015-03-19 | Sunnyvale     | Software Engineer                            |        |
-| Abjayon Inc                    | 2015-03-19 | San Jose      | C/C++ Developer                              |        |
-| Facebook                       | 2015-03-19 | Menlo Park    | C/C++ Developer                              |        |
-| Project Consulting Specialists | 2015-03-21 | Sunnyvale     | Software Engineer - Cocoa                    |        |
-| xoriant                        | 2015-03-21 | Santa Clara   | Systems Software Engineer(C++, Linux)        |        |
-| OpenStack at CyberCoders       | 2015-03-25 | Austin        | Senior Storage Product Engineer              |        |
+| Name                           |       Date | Place         | Positions                                                  | Result |
+|--------------------------------+------------+---------------+------------------------------------------------------------+--------|
+| Apple                          |            |               |                                                            |        |
+| Apple                          |            |               |                                                            |        |
+| Apple                          |            |               |                                                            |        |
+| Apple                          |            |               |                                                            |        |
+| Google                         |            |               |                                                            |        |
+| - San Mateo                    | 2015-03-09 | San Mateo     | Software Engineer (Java/C#/C++)                            |        |
+| SAP                            | 2015-03-09 | Palo Alto     | C++ Software Engineer                                      |        |
+| Tecopinc                       | 2015-03-09 | Fremont       | Software Engineer - C++, Linux, TCP                        |        |
+| Tableau                        | 2015-03-09 | Palo Alto     | Software Engineer, Desktop UI                              |        |
+| Accuray                        | 2015-03-09 | Sunnyvale     | C++ Software Engineer                                      |        |
+| H&H Partners                   | 2015-03-09 | San Jose      | C++ Software Engineer                                      |        |
+| MarkLogic                      | 2015-03-09 | San Carlos    | Senior Software Engineer                                   |        |
+| RetailNext                     | 2015-03-09 | San Jose      | Software Engineer                                          | No     |
+| SSD - San Jose                 | 2015-03-09 | San Jose      | Staff Software Engineer (SSD)                              |        |
+| ebay                           | 2015-03-09 | San Jose      | Sr. Linux C++ Engineer                                     |        |
+| Vision Technical Sourcing      | 2015-03-13 | Overland Park | C++ Software Engineer                                      |        |
+| Model N                        | 2015-03-13 | Redwood       | Senior Software Engineer - Backend Developer               |        |
+| TekPartners                    | 2015-03-17 | Santa Clara   | C/C++ Software Engineer                                    |        |
+| CAE Recruiters                 | 2015-03-17 | San Jose      | Senior Software Engineer, Geometric Modeling               |        |
+| PlaceIQ                        | 2015-03-17 | Palo Alto     | Sr. Software Engineer, Big Data                            |        |
+| Lockheed Martin                | 2015-03-17 | Sunnyvale     | Software Engineer Asc                                      |        |
+| Microsoft                      | 2015-03-17 | Sunnyvale     | Software Engineer                                          |        |
+| Molecular Devices, LLC.        | 2015-03-19 | Sunnyvale     | Software Engineer-MOL000970                                |        |
+| Amazon                         | 2015-03-19 | Cupertino     | Software Development Engineer, Amazon Echo                 |        |
+| CyberCoders                    | 2015-03-19 | Sunnyvale     | Software Engineer                                          |        |
+| Abjayon Inc                    | 2015-03-19 | San Jose      | C/C++ Developer                                            |        |
+| Facebook                       | 2015-03-19 | Menlo Park    | C/C++ Developer                                            |        |
+| Project Consulting Specialists | 2015-03-21 | Sunnyvale     | Software Engineer - Cocoa                                  |        |
+| xoriant                        | 2015-03-21 | Santa Clara   | Systems Software Engineer(C++, Linux)                      |        |
+| OpenStack at CyberCoders       | 2015-03-25 | Austin        | Senior Storage Product Engineer - C/C++, Python, OpenStack |        |
+| CyberCoders                    | 2015-03-25 | Austin        | Sr Morphing Developer                                      |        |
+| Luna Data Solutions, Inc.      | 2015-03-25 | Austin        | Sr. Software Developer C++                                 |        |
+| Prestige Staffing              | 2015-03-25 | Austin        | Software Developer                                         |        |
+| Deltek                         | 2015-03-25 | Austin        | Senior C++ Software Developer                              |        |
+| Salient Systems                | 2015-03-25 | Austin        | Software Engineer                                          |        |
+|                                |            |               |                                                            |        |
 *** cover letter
 Dear Sirs,
 
 I'm a Software Engineer with 10+ years of experience.
-Currently I'm located in Ukraine. I'm going to move to U.S. as a greencard holder nearest months.
+Currently I'm located in Ukraine. I'm going to move to U.S. as a greencard holder nearest time.
 It would be preferred to arrange some of interviews (or all of them) remotely: by phone, skype, web-meeting whatever.
+
+Best regards,
+Volodymyr Chabanenko 
+----------
+I've been working in similar area (Rapid Prototyping). while I meet your basic reuirements, my experience will help me quickly learn specific details of your job.
 
 Best regards,
 Volodymyr Chabanenko 
